@@ -1,0 +1,26 @@
+{
+  "name": "team-tools",
+  "version": "1.0.0",
+  "description": "Tools that help teams succeed!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hngu/team-tools.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hngu/team-tools/issues"
+  },
+  "homepage": "https://github.com/hngu/team-tools#readme",
+  "engines": {
+    "node": ">=12.13.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
