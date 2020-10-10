@@ -16,3 +16,4 @@ Tools that help teams succeed!
 
 TODOS:
 - add favicon
+- setup client side code
