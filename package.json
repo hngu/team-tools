@@ -4,7 +4,8 @@
   "description": "Tools that help teams succeed!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=development node src/app.js"
   },
   "repository": {
     "type": "git",

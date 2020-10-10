@@ -1,10 +1,10 @@
 const express = require('express');
 const app = express();
+const config = require('./config')(process.env.NODE_ENV);
+const router = require('./routes');
 
-app.get('/', (req, res) => {
-  res.send({data: "Hello World!"});
-});
+router(app);
 
-app.listen(3001, () => {
-  console.log('Listening in port 3001');
+app.listen(config.PORT, () => {
+  console.log(`Listening in port ${config.PORT}`);
 });
