@@ -23,7 +23,8 @@ module.exports = {
     },
     ecmaVersion: 2018,
     project: './tsconfig.json',
-    sourceType: 'module'
+    sourceType: 'module',
+    tsconfigRootDir: __dirname,
   },
   plugins: [
     'react',
